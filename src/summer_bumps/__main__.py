@@ -28,6 +28,5 @@ def main():
     report += finish_order
     fileParser.writeTextFile(week, report)
 
-
 if __name__ == "__main__":
     main()

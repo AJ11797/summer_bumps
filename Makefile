@@ -8,7 +8,7 @@ run: install
 
 create_venv:
 	python3 -m venv .venv
-	.venv/bin/pip install -r requirements.txt
+	.venv/bin/pip install -r dev_requirements.txt
 	
 cq:
 	autopep8 --in-place src/summer_bumps/*.py ; \

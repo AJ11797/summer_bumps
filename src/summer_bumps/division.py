@@ -54,19 +54,19 @@ class Div():
                                           ].start_position - self.division[max_diff[1]].start_position
 
         if positional_change == 1:
+            bump_message = " has bumped "
             loc = round(settings.bumps_diff / max_diff[2], 3) * 100
-            note = (self.division[max_diff[0]].name + " has bumped " +
-                    self.division[max_diff[1]].name + self.find_bump_location(loc, max_diff))
         elif positional_change == 3:
+            bump_message = " has overbumped "
             loc = round(settings.nbump_diff[1] / max_diff[2], 3) * 100
-            note = (self.division[max_diff[0]].name + " has overbumped " +
-                    self.division[max_diff[1]].name + self.find_bump_location(loc, max_diff))
         elif positional_change == 5:
+            bump_message = " has double overbumped "
             loc = round(settings.nbump_diff[2] / max_diff[2], 3) * 100
-            note = (self.division[max_diff[0]].name + " has double overbumped " +
-                    self.division[max_diff[1]].name + self.find_bump_location(loc, max_diff))
         else:
-            print("Warning mega overbump has occured")
+            bump_message = "Warning mega overbump has occured"
+            loc = 0
+        note = (self.division[max_diff[0]].name + bump_message +
+                    self.division[max_diff[1]].name + self.find_bump_location(loc, max_diff))
 
         note += "\n" + self.division[max_diff[0]].name + ": " + str(
             self.division[max_diff[0]].start_position) + "->" + str(self.division[max_diff[0]].finish_position)
@@ -78,13 +78,14 @@ class Div():
         return note
 
     def detect_finish(self) -> bool:
-        """Detects where the division should finish"""
+        """Detects when the division should finish"""
         if self.get_next_bump() is None:
             return True
         else:
             return False
 
     def race(self) -> str:
+        """Simulate a single division"""
         report = ""
         for i in range(len(self.division)):
             if self.detect_finish():
