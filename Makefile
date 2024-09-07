@@ -11,6 +11,6 @@ create_venv:
 	.venv/bin/pip install -r requirements.txt
 	
 cq:
-	autopep8 --in-place src/*.py ; \
-	flake8 src/*.py ; \
-	mypy src/*.py ; \
+	autopep8 --in-place src/summer_bumps/*.py ; \
+	flake8 src/summer_bumps/*.py ; \
+	mypy src/summer_bumps/*.py ; \

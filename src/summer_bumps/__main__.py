@@ -6,6 +6,7 @@ from summer_bumps.division import Div
 file_names = ["wk1", "wk2", "wk3", "wk4",
               "wk5", "wk6", "wk7", "wk8", "wk9", "wk10"]
 
+
 def main():
     report = ""
     finish_order = ""
@@ -26,6 +27,7 @@ def main():
             division.get_finish_order()[2] + "\n"
     report += finish_order
     fileParser.writeTextFile(week, report)
+
 
 if __name__ == "__main__":
     main()

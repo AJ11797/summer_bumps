@@ -38,4 +38,3 @@ def writeTextFile(file_name: str, message: str):
     f = open(f"output/output_{file_name}.txt", "w")
     f.write(message)
     f.close()
-
