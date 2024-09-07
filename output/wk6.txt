@@ -1,0 +1,51 @@
+Iris bumped Julia at the Motorway Bridge
+Iris:17->16
+Julia:16->17
+Zara bumped Csongi on station as they boated without a lifejacket
+Zara:5->4
+Csongi:4->5
+George bumped Amy on station as they boated without a lifejacket
+George:11->10
+Amy:10->11
+Thomas G bumped Dido on station as they had a Faulty Coxbox
+Thomas G:8->7
+Dido:7->8
+Julia was bumped before they could bump Alexander
+Toby bumped Rosie at Plough Reach
+Toby:19->18
+Rosie:18->19
+Morgan has overbumped Ben v at the P&E
+Morgan:9->6
+Ben v:6->9
+Sophie bumped Bálint on station as they had a Faulty Coxbox
+Sophie:23->22
+Bálint:22->23
+Isaac bumped Brian Chen at the Railings
+Isaac:14->13
+Brian Chen:13->14
+Brian Chen was bumped before they could bump Daniel Med
+
+Net Bumps Standings
+Lizzie (+3)
+Máté (+4)
+Andrew (0)
+Zara (+9)
+Csongi (-4)
+Morgan (+6)
+Thomas G (-2)
+Dido (+3)
+Ben v (-7)
+George (+4)
+Amy (-3)
+Daniel Med (-2)
+Isaac (+4)
+Brian Chen (-5)
+Alexander (-8)
+Iris (+5)
+Julia (+2)
+Toby (+2)
+Rosie (-4)
+Oscar (-4)
+Lily (+2)
+Sophie (0)
+Bálint (-5)

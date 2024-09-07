@@ -1,0 +1,54 @@
+Iris bumped Oscar at the Little Bridge
+Iris:19->18
+Oscar:18->19
+Zara bumped Thomas G at the Gunshed
+Zara:7->6
+Thomas G:6->7
+Thomas G was bumped before they could bump Ben v
+Máté bumped Csongi at the Gut
+Máté:4->3
+Csongi:3->4
+Toby bumped Bálint at Grassy
+Toby:21->20
+Bálint:20->21
+Lizzie bumped Andrew at the Reach
+Lizzie:2->1
+Andrew:1->2
+George bumped Brian Chen at the Reach
+George:13->12
+Brian Chen:12->13
+Morgan bumped Daniel Med at the Reach
+Morgan:11->10
+Daniel Med:10->11
+Dido bumped Amy at the Railings
+Dido:9->8
+Amy:8->9
+Julia bumped Rosie at the Railway Bridge
+Julia:17->16
+Rosie:16->17
+Rosie was bumped before they could bump Isaac
+
+Bumps Standings
+Lizzie (+3)
+Andrew (+1)
+Máté (+3)
+Csongi (-3)
+Ben v (-3)
+Zara (+7)
+Thomas G (-2)
+Dido (+3)
+Amy (-1)
+Morgan (+2)
+Daniel Med (-1)
+George (+2)
+Brian Chen (-4)
+Alexander (-7)
+Isaac (+2)
+Julia (+3)
+Rosie (-2)
+Iris (+3)
+Oscar (-3)
+Toby (0)
+Bálint (-3)
+Lily (+1)
+Sophie (-1)
