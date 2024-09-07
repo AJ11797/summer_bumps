@@ -5,3 +5,4 @@ input/*
 output/*
 src/summer_bumps/__pycache__/*
 src/summer_bumps.egg-info/*
+build/*

@@ -1,7 +1,10 @@
-.phony: create_venv code_quality
+.phony: create_venv code_quality install run
 
-run:
-	/usr/bin/env python3 src/summer_bumps.py
+install:
+	.venv/bin/pip install .
+
+run: install
+	.venv/bin/summer_bumps
 
 create_venv:
 	python3 -m venv .venv
