@@ -1,7 +1,7 @@
 .phony: create_venv code_quality
 
 run:
-	/usr/bin/env python3 summer_bumps.py
+	/usr/bin/env python3 src/summer_bumps.py
 
 create_venv:
 	python3 -m venv .venv
