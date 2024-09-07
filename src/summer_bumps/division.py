@@ -1,4 +1,4 @@
-import settings
+import summer_bumps.settings as settings
 import random
 
 

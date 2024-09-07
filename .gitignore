@@ -3,4 +3,5 @@
 input/*
 !input/example.csv
 output/*
-src/__pycache__/*
+src/summer_bumps/__pycache__/*
+src/summer_bumps.egg-info/*

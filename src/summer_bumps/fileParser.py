@@ -1,6 +1,6 @@
 import csv
 import sys
-from rower import Rower
+from summer_bumps.rower import Rower
 
 
 def readFile(file_name: str) -> list:
